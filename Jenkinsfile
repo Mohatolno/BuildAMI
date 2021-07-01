@@ -35,8 +35,8 @@ pipeline {
                 dir("Build_WebAMI") {
                     sh "pwd"
                     git(
-                        url: 'https://github.com/KarimDevOps/CICD_TP_Build_AMI.git',
-                        credentialsId: '7b7ae3af-4e0e-4ed7-a384-fea719b66b10',
+                        url: 'https://github.com/Mohatolno/BuildAMI.git',
+                        credentialsId: 'jenkins-credentials',
                         branch: "${GitBranch}"
                     )
                     sh "ls"
