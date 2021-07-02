@@ -34,8 +34,8 @@
     - name: Git checkout website
       become: yes
       git:
-        repo: https://github.com/alaminsahed/panda-ecommerce.git
-        dest: /var/www/html
+        repo: https://github.com/serignegning/ProjetJenkinsClient.git 
+        dest: /etc/apache2/webapps
       notify:
         - restart apache2
 
